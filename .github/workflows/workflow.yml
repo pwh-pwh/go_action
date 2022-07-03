@@ -1,3 +1,4 @@
+on: [push]
 jobs:
   github-action-go:
     runs-on: ubuntu-latest
