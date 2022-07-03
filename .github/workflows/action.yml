@@ -1,4 +1,5 @@
 name: "github-action-go"
+on: [push]
 description: "An example of building github actions with Go"
 runs:
   using: docker
