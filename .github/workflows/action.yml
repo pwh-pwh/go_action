@@ -4,3 +4,9 @@ description: "An example of building github actions with Go"
 runs:
   using: docker
   image: Dockerfile
+jobs:
+  github-action-go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./ # 👈 using action from the repository itself.
