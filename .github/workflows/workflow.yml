@@ -1,0 +1,6 @@
+jobs:
+  github-action-go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./ # 👈 using action from the repository itself.
